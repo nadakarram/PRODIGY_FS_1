@@ -8,6 +8,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation and usage instruction
+
+1. install the project;
+2.	import the MySQL database” better” name: softwarecompany.sql
+
+3.	then run seeder  by command
+php artisan db:seeder
+php artisan db:seed --class=UsersTableSeeder
+php artisan db:seed 
+php artisan migrate  --seed
+4.	open examp and start Apatch and MySQL 
+5.	php artisan serve to run web
+6.	if the images not appear run 
+php artisan storage:link
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
